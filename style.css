@@ -46,3 +46,14 @@ table, th, td {
     background-color: slategrey;
   }
 
+  button {
+    width: 100%;
+    background-color:slateblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+
+  }

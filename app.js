@@ -19,3 +19,12 @@ function addRow()
     table.appendChild(row);
 
 }
+function loadDoc() {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+      document.getElementById("credits").innerHTML =
+      this.responseText;
+    }
+    xhttp.open("GET", "credits.txt");
+    xhttp.send();
+  }
